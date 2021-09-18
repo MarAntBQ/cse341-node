@@ -1,4 +1,4 @@
-const SUsers = ['User 1', 'User 2'];
+const SUsers = ['User 1', 'User 2']; //Create an array in order to use it for the list of users, it's really cool
 const requestHandler = (req, res) => {
     const url = req.url;
     if (url === '/') {
